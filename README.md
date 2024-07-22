@@ -18,7 +18,7 @@ Barba Brutal é uma aplicação criada para gerenciar agendamentos de serviços 
 
 1. Clone o repositório:
     ```sh
-    git clone https://github.com/usuario/barba-brutal.git
+    git clone https://github.com/douglasrangel-stack/barba-brutal.git
     cd barba-brutal
     ```
 
@@ -27,11 +27,17 @@ Barba Brutal é uma aplicação criada para gerenciar agendamentos de serviços 
     yarn install
     ```
 
-3. Configure as variáveis de ambiente para cada aplicativo (frontend, mobile e backend).
 
 ## Scripts
 
 Para iniciar os aplicativos, use os seguintes comandos:
+
+### Global
+
+Para iniciar o servidor de desenvolvimento de todas as aplicações juntas:
+```sh
+yarn dev
+```
 
 ### Frontend
 
