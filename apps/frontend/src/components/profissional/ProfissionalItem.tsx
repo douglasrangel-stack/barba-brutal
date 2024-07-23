@@ -22,7 +22,7 @@ export default function ProfissionalItem(props: ProfissionalItemProps) {
         >
             <div className="relative h-72 w-full">
                 <Image
-                    src={props.profissional.imagemURL}
+                    src={props.profissional.imagemUrl}
                     fill
                     alt={props.profissional.nome}
                     className="object-cover object-top rounded-t-lg"
