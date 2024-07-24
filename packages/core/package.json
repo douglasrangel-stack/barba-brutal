@@ -1,12 +1,20 @@
 {
   "name": "@barba/core",
   "version": "1.0.0",
-  "main": "src/index.ts",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+      "dev": "tsup src/index.ts --dts --watch",
+      "build": "tsup src/index.ts --dts --minify"
   },
   "keywords": [],
-  "author": "",
+  "author": "Leonardo Moura Leitão",
   "license": "ISC",
-  "description": ""
+  "devDependencies": {
+      "tsup": "^8.1.2"
+  },
+  "dependencies": {
+      "typescript": "^5.5.3"
+  }
 }
