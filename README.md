@@ -2,6 +2,8 @@
 
 Barba Brutal é uma aplicação criada para gerenciar agendamentos de serviços em uma barbearia. O projeto é composto por três partes principais: frontend, mobile e backend, desenvolvidas com Turborepo, utilizando Yarn como gerenciador de pacotes.
 
+![Barba Brutal](tela.png)
+
 ## Estrutura do Projeto
 
 - **Frontend**: Desenvolvido com Next.js
